@@ -8,10 +8,11 @@ Using shot tracking data from the 2016-2017 season, I tested various machine lea
 ![Preview](https://github.com/yushunli2013/NBA-Shot-Prediction/blob/master/Images/data%20preview.png?raw=true)
 # EDA
 ![Heatmap](https://github.com/yushunli2013/NBA-Shot-Prediction/blob/master/Images/Heatmap.png)
+
 X coordinate has a negative correlation to current outcome, which makes sense because the farther away you are the less likely you will make the basket
 ![ShotChart](https://github.com/yushunli2013/NBA-Shot-Prediction/blob/master/Images/shotchart.png)
-Most teams have similar shot charts
-Teams like the Houston Rockets have an emphasis on taking less mid-range shots
+
+Most teams have similar shot charts. Teams like the Houston Rockets have an emphasis on taking less mid-range shots
 # Modeling
 ## Random Forest Classifier
 ![rfc](https://github.com/yushunli2013/NBA-Shot-Prediction/blob/master/Images/rfc%20accuracy.png)
@@ -20,7 +21,7 @@ Teams like the Houston Rockets have an emphasis on taking less mid-range shots
 ## Gaussian Naive Bayes
 ![gnb](https://github.com/yushunli2013/NBA-Shot-Prediction/blob/master/Images/gnb.png)
 ## XGBoost
-After performing a series of steps to perform hyperparamter tuning, the best result optained was 42.66% Error
+After performing a series of steps to perform hyperparamter tuning, the best result optained was 42.66% Mean Absolute Error
 
 # Conclusion
 Despite trying different models and different levels of hyperparameter tuning, most results averaged around 66-67% accuracy. This is not incredibly high, but given the data attributes, it is a decent starting point.
