@@ -24,7 +24,7 @@ Most teams have similar shot charts. Teams like the Houston Rockets have an emph
 After performing a series of steps to perform hyperparamter tuning, the best result optained was 42.66% Mean Absolute Error
 
 # Conclusion
-Despite trying different models and different levels of hyperparameter tuning, most results averaged around 66-67% accuracy. This is not incredibly high, but given the data attributes, it is a decent starting point.
+Despite trying different models and different levels of hyperparameter tuning, most results averaged around 65% accuracy. This is not incredibly high, but given the data attributes, it is a decent starting point.
 
 There are many additional datafields that would improve the model like:
 
